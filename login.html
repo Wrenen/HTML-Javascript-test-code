@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Database test</title>
+</head>
+<body>
+    <h1>Login:</h1>
+
+    <!-- Script element needed for java script 
+        Added at end to make sure browser completes html first and then executes javascript -->
+    <script>
+
+        //Javascpit code goes in here
+        console.log('Hello World');
+
+    </script>
+
+    <!-- alternatively you can use a seperate file to contain all javascript -->
+    <script src = "scriptCode.js"></script>
+
+    <!-- User form Code -->
+    <p id = "welcome"></p>
+    <form>
+        Username:<input type="text" id ="userID"/> <!-- id is use to target html elements in JS -->
+        <br/> 
+        Password:<input type="password" id ="pass"/>
+        <br/>
+        <input type="button" value="Login" onclick="displayName();"/>
+    </form>
+    <script src ="userForm.js"></script>
+</body>
+</html>
