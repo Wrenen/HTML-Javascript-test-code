@@ -80,3 +80,25 @@ console.log(text);
 
 //Template literals are not supported in Internet Explorer.
 
+// -- Conditional Statements --
+
+let x = 10;
+let y = 20;
+
+if(x > y){
+    console.log('x is greater than y');
+} else if (x == y){
+    console.log('x is equal to y');
+} else{
+    console.log('x is lesser than y');
+}
+
+// -- Loops --
+for (let i = 0; i < 5; i++){
+    console.log(`Looping... ${i}`);
+}
+
+//using colors array from above
+for (let color in colors){
+    console.log(colors[color]);
+}
