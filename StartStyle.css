@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+h2{
+    color: whitesmoke;
+    font-size: 20px;
+}
+p{
+    color: gray;
+    font-size: 18px;
+}
+.link{
+    color: pink;
+    text-decoration: none;
+}
+
+/*background image*/
+.bg-image {
+    /* The image used */
+    background-image: url("start_backgorund.jpg");
+  
+    /* Add the blur effect 
+    filter: blur(3px);
+    -webkit-filter: blur(3px);*/
+  
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: ivory;
+  }
+
+/*main box class*/
+.box1{
+    background-color: rgba(32, 32, 32, 0.5);
+    width: 400px;
+    border: 3px solid white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+
+    font-family:'Courier New', Courier, monospace;
+
+    /*blur backdrop*/
+    backdrop-filter: blur(7px);
+
+    /*Box shadow*/
+    box-shadow: 7px 10px 30px black;
+}
